@@ -8,11 +8,18 @@ A versioning file system (with branching) in the userspace developed by RK Hall 
 Installation, Usage & Unistallation:
 ------------------------------------
 
+First install the dependencies:
+libfuse-dev
+libglib2.0-dev
+libqt4-dev
+libqt4-core
+libqt4-gui
+
 To build and install, execute (from the project root directory):
 	make
 	sudo make install
 
-Prior to use, run:
+Prior to first use, run:
 	nautilus -q
 
 To use, execute:

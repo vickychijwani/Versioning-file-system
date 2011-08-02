@@ -9,6 +9,7 @@ install:
 	cd ui/timeline/; cp timeline /usr/bin/
 	cd ui/piechart/; cp piechart /usr/bin/
 	cd binaries/; make install
+	[ -d ~/.nautilus/python-extensions ] || mkdir ~/.nautilus/python-extensions
 	cp rvfs_submenu.py ~/.nautilus/python-extensions/
 
 clean:

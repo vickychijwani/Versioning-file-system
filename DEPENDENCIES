@@ -1,6 +1,6 @@
 Dependencies
 -------
 
-1. Fuse Development and Run Time library
-2. GLib-2.0+ Libraries
+1. Fuse Development and Run Time library (libfuse-dev)
+2. GLib-2.0+ Libraries (libglib2.0-dev)
 3. Qt4 Libraries for the UI (libqt4-core, libqt4-gui, libqt4-dev)
